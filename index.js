@@ -7,10 +7,10 @@ document.getElementById("button").onclick=function(){
     if(answer==number){
         alert(`You have guessed it in ${guess} tries !...The Number was ${number}`);
     }
-    else if(guess<answer){
+    else if(answer<number){
         alert("The number is too short!");
     }
-    else if(guess>answer){
+    else if(answer>number){
         alert("The number is a tad bit high");
     }
 
